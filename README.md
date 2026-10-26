@@ -1,4 +1,4 @@
-﻿# Composer Website _(composer_website)_
+# Composer Website _(composer_website)_
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -23,17 +23,17 @@ To accompany native desktop and mobile MAUI clients, Composer Website delivers i
 
 Requires .NET 8 or newer:
 
-`ash
+```bash
 dotnet restore Cmposer.Website/Cmposer.Website.csproj
-`
+```
 
 ## Usage
 
 Start the local web server:
 
-`ash
+```bash
 dotnet run --project Cmposer.Website/Cmposer.Website.csproj
-`
+```
 
 Navigate to https://localhost:7142 or http://localhost:5242 in your browser.
 
